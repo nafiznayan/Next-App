@@ -6,20 +6,36 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prisma:init": "prisma init",
+    "preview-email": "email dev -p 3030"
   },
   "dependencies": {
-    "@types/node": "22.15.18",
+    "@react-email/components": "0.1.0",
     "@types/react": "19.1.4",
     "@types/react-dom": "19.1.5",
     "autoprefixer": "10.4.21",
+    "daisyui": "^5.0.35",
     "eslint": "9.26.0",
     "eslint-config-next": "15.3.2",
+    "fast-sort": "^3.4.1",
     "next": "15.3.2",
+    "next-auth": "^4.24.11",
+    "next-cloudinary": "^6.16.0",
     "postcss": "8.5.3",
     "react": "19.1.0",
     "react-dom": "19.1.0",
+    "resend": "^4.6.0",
     "tailwindcss": "4.1.6",
-    "typescript": "5.8.3"
+    "zod": "^3.25.51"
+  },
+  "devDependencies": {
+    "@prisma/client": "^6.9.0",
+    "@tailwindcss/postcss": "^4.1.6",
+    "@types/node": "^24.0.1",
+    "prisma": "^6.9.0",
+    "react-email": "4.0.16",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
